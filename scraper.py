@@ -79,7 +79,7 @@ def scrapespreadsheet(XLS):
             record['id'] = id
             record['url'] = str(XLS)
             print "---", record
-            scraperwiki.sqlite.save([keys[2], 'url'], record, table_name=sheetnum) 
+            scraperwiki.sqlite.save([keys[2], 'url'], record, table_name=sheetname) 
 
 
 #define the URL we're going to scrape
